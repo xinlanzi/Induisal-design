@@ -25,7 +25,7 @@
         <mxCell id="dspvbrvuuGCVZAwABhoR-4" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_1;" value="1000uF" vertex="1">
           <mxGeometry height="55" width="100" x="160" y="325" as="geometry" />
         </mxCell>
-        <mxCell id="dspvbrvuuGCVZAwABhoR-5" edge="1" parent="1" source="dspvbrvuuGCVZAwABhoR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.58;exitY=0.135;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="dspvbrvuuGCVZAwABhoR-4">
+        <mxCell id="dspvbrvuuGCVZAwABhoR-5" edge="1" parent="1" source="dspvbrvuuGCVZAwABhoR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.58;exitY=0.135;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" target="dspvbrvuuGCVZAwABhoR-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="150" y="353" />
@@ -201,7 +201,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dspvbrvuuGCVZAwABhoR-48" edge="1" parent="1" source="dspvbrvuuGCVZAwABhoR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.58;entryY=0.935;entryDx=0;entryDy=0;entryPerimeter=0;" target="dspvbrvuuGCVZAwABhoR-2">
+        <mxCell id="dspvbrvuuGCVZAwABhoR-48" edge="1" parent="1" source="dspvbrvuuGCVZAwABhoR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.58;entryY=0.935;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" target="dspvbrvuuGCVZAwABhoR-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="50" y="218" />
