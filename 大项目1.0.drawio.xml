@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="RExBwcvo6RIHyN6l-7ZS">
-    <mxGraphModel dx="2516" dy="1938" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2598" dy="1889" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,7 +201,7 @@
         <mxCell id="Qq_5E18YUQdT4iYnc2EW-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;5V8A&lt;/span&gt;" vertex="1">
           <mxGeometry height="81" width="720" x="560" y="-96" as="geometry" />
         </mxCell>
-        <mxCell id="8MVmIN1BBx7ZPML6EDeU-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;屏幕&lt;/font&gt;" vertex="1">
+        <mxCell id="8MVmIN1BBx7ZPML6EDeU-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;串口屏&lt;/font&gt;" vertex="1">
           <mxGeometry height="80" width="110.75" x="864.62" y="436" as="geometry" />
         </mxCell>
       </root>
