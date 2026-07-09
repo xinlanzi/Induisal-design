@@ -16,7 +16,7 @@
         </UserObject>
         <UserObject label="18650 电池 3.6V" mermaidId="n:Battery" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="18650 电池 3.6V" id="chOmCx8b5W61l-2Kpp_S-3">
           <mxCell parent="chOmCx8b5W61l-2Kpp_S-2" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="43.7246963562753" width="176" x="210" y="49.99724696356276" as="geometry" />
+            <mxGeometry height="43.7246963562753" width="176" x="165" y="49.99724696356276" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="升压模块 5V" mermaidId="n:Boost5V" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="升压模块 5V" id="chOmCx8b5W61l-2Kpp_S-4">
@@ -38,7 +38,7 @@
         </UserObject>
         <UserObject label="Arduino Nano 主控" mermaidId="n:MCU" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Arduino Nano 主控" id="chOmCx8b5W61l-2Kpp_S-9">
           <mxCell parent="chOmCx8b5W61l-2Kpp_S-8" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="43.7246963562753" width="333.5960264900662" x="128.99728476821193" y="109.99882591093117" as="geometry" />
+            <mxGeometry height="43.72" width="341" x="129" y="110" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="陀螺仪模块" mermaidId="n:IMU" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="陀螺仪模块" id="chOmCx8b5W61l-2Kpp_S-10">
@@ -100,8 +100,7 @@
           <mxCell edge="1" parent="chOmCx8b5W61l-2Kpp_S-1" source="chOmCx8b5W61l-2Kpp_S-9" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.75;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="chOmCx8b5W61l-2Kpp_S-13">
             <mxGeometry relative="1" as="geometry">
               <Array as="points">
-                <mxPoint x="497" y="510" />
-                <mxPoint x="510" y="510" />
+                <mxPoint x="510" y="484" />
               </Array>
             </mxGeometry>
           </mxCell>
