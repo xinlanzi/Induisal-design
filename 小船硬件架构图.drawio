@@ -16,7 +16,7 @@
         </UserObject>
         <UserObject label="18650 电池 3.6V" mermaidId="n:Battery" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="18650 电池 3.6V" id="chOmCx8b5W61l-2Kpp_S-3">
           <mxCell parent="chOmCx8b5W61l-2Kpp_S-2" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="43.7246963562753" width="176" x="204" y="36.43724696356276" as="geometry" />
+            <mxGeometry height="43.7246963562753" width="176" x="210" y="49.99724696356276" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="升压模块 5V" mermaidId="n:Boost5V" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="升压模块 5V" id="chOmCx8b5W61l-2Kpp_S-4">
