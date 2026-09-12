@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="BbmxEDv53NXdJtOaU8ol">
+    <mxGraphModel dx="926" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O5cOnABqw8qYud_gtRph-5" edge="1" parent="1" source="O5cOnABqw8qYud_gtRph-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="O5cOnABqw8qYud_gtRph-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="分时电价" vertex="1">
+          <mxGeometry height="40" width="70" x="100" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-6" edge="1" parent="1" source="O5cOnABqw8qYud_gtRph-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="O5cOnABqw8qYud_gtRph-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="小区负载" vertex="1">
+          <mxGeometry height="40" width="70" x="190" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-7" edge="1" parent="1" source="O5cOnABqw8qYud_gtRph-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="O5cOnABqw8qYud_gtRph-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="光伏功率" vertex="1">
+          <mxGeometry height="40" width="70" x="280" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-9" edge="1" parent="1" source="O5cOnABqw8qYud_gtRph-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;shape=flexArrow;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="可视化分析" vertex="1">
+          <mxGeometry height="50" width="105" x="172.5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="功率平衡约束" vertex="1">
+          <mxGeometry height="40" width="85" x="282.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="电量递推约束" vertex="1">
+          <mxGeometry height="40" width="85" x="182.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="储能约束" vertex="1">
+          <mxGeometry height="40" width="70" x="290" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="日末电量约束" vertex="1">
+          <mxGeometry height="40" width="85" x="77.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="充放电功率约束" vertex="1">
+          <mxGeometry height="40" width="105" x="67.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="购电非负约束" vertex="1">
+          <mxGeometry height="40" width="85" x="189" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-17" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;strokeWidth=2;rotation=90;" value="" vertex="1">
+          <mxGeometry height="250" width="20" x="215" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;微网日前调度优化模型&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="120" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据支持" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-21" edge="1" parent="1" source="O5cOnABqw8qYud_gtRph-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="O5cOnABqw8qYud_gtRph-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5cOnABqw8qYud_gtRph-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="HiGHS 对偶单纯形求解器" vertex="1">
+          <mxGeometry height="50" width="160" x="145" y="585" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
