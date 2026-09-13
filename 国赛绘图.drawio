@@ -305,7 +305,7 @@
           <mxGeometry height="50" width="210" x="488.5" y="125" as="geometry" />
         </mxCell>
         <mxCell id="ltwWuveavoY-svC_PBc0-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据预测" vertex="1">
-          <mxGeometry height="30" width="60" x="167" y="25" as="geometry" />
+          <mxGeometry height="30" width="60" x="170.75" y="45" as="geometry" />
         </mxCell>
         <mxCell id="ltwWuveavoY-svC_PBc0-18" edge="1" parent="1" source="ltwWuveavoY-svC_PBc0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="ltwWuveavoY-svC_PBc0-16">
           <mxGeometry relative="1" as="geometry">
@@ -349,7 +349,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ltwWuveavoY-svC_PBc0-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;strong&gt;电价统计分析&lt;/strong&gt;&lt;div&gt;&lt;strong&gt;强周周期识别&lt;/strong&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="55" width="105" x="72" y="-3" as="geometry" />
+          <mxGeometry height="55" width="92.5" x="78.25" y="-4" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
