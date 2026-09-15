@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="8kTIczFQmEdByyZvnCqw">
+    <mxGraphModel dx="1089" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p1zwGETsmLl2cfnB78p8-7" edge="1" parent="1" source="p1zwGETsmLl2cfnB78p8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" target="p1zwGETsmLl2cfnB78p8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;物理设备层&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;（磨床 / 热处理炉 / 装配线 + 各类传感器）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="290" x="330" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-8" edge="1" parent="1" source="p1zwGETsmLl2cfnB78p8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474.52941176470586" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;5G 工业专网 + 边缘计算节点&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="290" x="330" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-9" edge="1" parent="1" source="p1zwGETsmLl2cfnB78p8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" target="p1zwGETsmLl2cfnB78p8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;“精工智核” 企业大脑&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;（大数据中台：采集‑清洗‑存储‑特征提取）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="290" x="330" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-10" edge="1" parent="1" source="p1zwGETsmLl2cfnB78p8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" target="p1zwGETsmLl2cfnB78p8-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;AI 健康研判模型&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;+&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;数字孪生虚拟模型&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2018px%3B%26quot%3B%26gt%3B5G%20%E5%B7%A5%E4%B8%9A%E4%B8%93%E7%BD%91%20%2B%20%E8%BE%B9%E7%BC%98%E8%AE%A1%E7%AE%97%E8%8A%82%E7%82%B9%26lt%3B%2Ffont%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2280%22%20width%3D%22290%22%20x%3D%22330%22%20y%3D%22380%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="290" x="690" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-11" edge="1" parent="1" source="p1zwGETsmLl2cfnB78p8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" target="p1zwGETsmLl2cfnB78p8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;预警、自动生成运维工单&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="290" x="690" y="383" as="geometry" />
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-12" edge="1" parent="1" source="p1zwGETsmLl2cfnB78p8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" target="p1zwGETsmLl2cfnB78p8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;现场运维执行&lt;br&gt;+&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;维修记录回写平台&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="290" x="690" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="p1zwGETsmLl2cfnB78p8-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;闭环迭代&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="20" x="645" y="341" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
