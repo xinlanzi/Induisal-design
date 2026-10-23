@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="c_8Y9YRcGYnyf0i1rwL3">
+    <mxGraphModel dx="1157" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EKed5peDfKynw9DxvMSf-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;dashPattern=8 4 1 4;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="150" width="520" x="270" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EKed5peDfKynw9DxvMSf-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;h3 class=&quot;heading-3 ace-line old-record-id-F2cUdsxJCoKFnkxDXahco5WFnCh&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;将两种不同材料的导体A和B串接成一个闭合回路，当两个接点温度不同时，在回路中就会产生热电势，形成电流，此现象称为热电效应。&lt;/span&gt;&lt;/h3&gt;&lt;div class=&quot;ace-line ace-line old-record-id-QdLidJeu1oeppqx2IDrcsKJmn4b&quot;&gt;&lt;strong&gt;均质&lt;/strong&gt;&lt;strong&gt;导体&lt;/strong&gt;&lt;strong&gt;定律：&lt;/strong&gt;若导体是均质，则不产生热电动势&lt;/div&gt;&lt;div class=&quot;ace-line ace-line old-record-id-OHnfd2kqQoe4njxnoz5cAQvIn8c&quot;&gt;&lt;strong&gt;中间&lt;/strong&gt;&lt;strong&gt;导体&lt;/strong&gt;&lt;strong&gt;定律：&lt;/strong&gt;若接入第三种材料（两端温度相等），也不会影响热电动势&lt;/div&gt;&lt;div class=&quot;ace-line ace-line old-record-id-HIAudjY12oYktsxiAZZcriQ8nUf&quot;&gt;&lt;strong&gt;金属热电阻（&lt;/strong&gt;&lt;strong&gt;电阻率&lt;/strong&gt;&lt;strong&gt;随温度变化）/半导体&lt;/strong&gt;&lt;strong&gt;热敏电阻&lt;/strong&gt;&lt;strong&gt;（负的&lt;/strong&gt;&lt;strong&gt;电阻温度系数&lt;/strong&gt;&lt;strong&gt;，温度上升阻值下降）&lt;/strong&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class=&quot;lark-record-clipboard&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="500" x="280" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="EKed5peDfKynw9DxvMSf-4" parent="1" style="text;whiteSpace=wrap;fontStyle=1;fontSize=18;" value="热电偶：热电效应" vertex="1">
+          <mxGeometry height="40" width="190" x="435" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
