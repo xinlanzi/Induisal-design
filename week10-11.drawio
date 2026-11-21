@@ -1,11 +1,14 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="2mJU2IG9U6x51s-JhC24">
-    <mxGraphModel dx="792" dy="429" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="803" dy="435" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 4 1 4;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="801.5" width="387" x="640" y="342.5" as="geometry" />
+        </mxCell>
         <mxCell id="y8sksL_P7bWzY2dNYQ7S-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;dashed=1;dashPattern=8 4 1 4;" value="" vertex="1">
-          <mxGeometry height="235" width="350" x="260" y="155" as="geometry" />
+          <mxGeometry height="217" width="350" x="260" y="155" as="geometry" />
         </mxCell>
         <mxCell id="y8sksL_P7bWzY2dNYQ7S-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;测试系统的三类问题&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="220" x="350" y="140" as="geometry" />
@@ -31,44 +34,113 @@
         <mxCell id="y8sksL_P7bWzY2dNYQ7S-10" parent="1" style="text;whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;ol style=&quot;list-style-type: decimal;&quot;&gt;&lt;li&gt;&lt;strong&gt;叠加性&lt;/strong&gt;：多个信号一起输入，输出等于各个单独输出相加。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;齐次性（比例）&lt;/strong&gt;：输入放大 k 倍，输出同步放大 k 倍。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;微分特性&lt;/strong&gt;：输入求导，输出也对应求导。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;积分特性&lt;/strong&gt;：零初始条件，输入积分，输出同步积分。&lt;/li&gt;&lt;li&gt;✨&lt;strong&gt;频率保持性：&lt;/strong&gt;不产生新的频率成分，只改变幅值大小和相位。&lt;/li&gt;&lt;/ol&gt;" vertex="1">
           <mxGeometry height="130" width="390" x="630" y="212.5" as="geometry" />
         </mxCell>
-        <mxCell id="y8sksL_P7bWzY2dNYQ7S-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;dashPattern=8 4 1 4;" value="" vertex="1">
-          <mxGeometry height="752" width="350" x="258" y="425" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-15" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="752" width="392" x="260" y="392" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;静态特性指标&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="110" x="380" y="430" as="geometry" />
+        <mxCell id="y8sksL_P7bWzY2dNYQ7S-11" parent="oaAtDDPTm3okgFsRBYkK-15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;dashPattern=8 4 1 4;" value="" vertex="1">
+          <mxGeometry height="752" width="350" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="标定：给传感器&lt;strong&gt;已知标准输入 X&lt;/strong&gt;，记录输出 Y，拟合曲线。" vertex="1">
-          <mxGeometry height="40" width="380" x="270" y="470" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-1" parent="oaAtDDPTm3okgFsRBYkK-15" style="text;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;静态特性指标&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="122" y="5" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#DDECFF;strokeColor=#6c8ebf;shadow=1;" value="" vertex="1">
-          <mxGeometry height="80" width="310" x="280" y="500" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-2" parent="oaAtDDPTm3okgFsRBYkK-15" style="text;whiteSpace=wrap;html=1;" value="标定：给传感器&lt;strong&gt;已知标准输入 X&lt;/strong&gt;，记录输出 Y，拟合曲线。" vertex="1">
+          <mxGeometry height="40" width="380" x="12" y="45" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-5" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h3&gt;①灵敏度 S&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;：输入变化&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;Δ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp;x&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;，输出变化&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;Δ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp;y&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;求斜率:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;S =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;Δ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt; y /&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;Δ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp;x&lt;/span&gt;&lt;/h3&gt;" vertex="1">
-          <mxGeometry height="70" width="300" x="290" y="496" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-3" parent="oaAtDDPTm3okgFsRBYkK-15" style="whiteSpace=wrap;html=1;fillColor=#DDECFF;strokeColor=#6c8ebf;shadow=1;" value="" vertex="1">
+          <mxGeometry height="80" width="310" x="22" y="75" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-7" parent="1" style="whiteSpace=wrap;html=1;fillColor=#DDECFF;strokeColor=#6c8ebf;shadow=1;" value="" vertex="1">
-          <mxGeometry height="178" width="310" x="280" y="592" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-5" parent="oaAtDDPTm3okgFsRBYkK-15" style="text;whiteSpace=wrap;html=1;" value="&lt;h3&gt;①灵敏度 S&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;：输入变化&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;Δ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp;x&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;，输出变化&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;Δ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp;y&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;求斜率:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;S =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;Δ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt; y /&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;Δ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp;x&lt;/span&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="70" width="300" x="32" y="71" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-6" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h3&gt;②非线性度（非线性误差）&lt;/h3&gt;&lt;p&gt;偏离拟合直线多少:&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;\(\text{非线性度}= \frac{B}{A}\times100\%\)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;A：满量程；B：标定曲线与拟合直线间&lt;/span&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;最大偏差&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;两种拟合参考直线：&amp;nbsp;&lt;/p&gt;&lt;p&gt;1）端基直线：直接连接标定曲线起点、终点；&amp;nbsp;&lt;/p&gt;&lt;p&gt;2）独立（最小二乘）：误差平方最小的最优拟合线。&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="170" width="290" x="290" y="585" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-7" parent="oaAtDDPTm3okgFsRBYkK-15" style="whiteSpace=wrap;html=1;fillColor=#DDECFF;strokeColor=#6c8ebf;shadow=1;" value="" vertex="1">
+          <mxGeometry height="178" width="310" x="22" y="167" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-9" parent="1" style="whiteSpace=wrap;html=1;fillColor=#DDECFF;strokeColor=#6c8ebf;shadow=1;" value="" vertex="1">
-          <mxGeometry height="130" width="310" x="280" y="784" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-6" parent="oaAtDDPTm3okgFsRBYkK-15" style="text;whiteSpace=wrap;html=1;" value="&lt;h3&gt;②非线性度（非线性误差）&lt;/h3&gt;&lt;p&gt;偏离拟合直线多少:&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;\(\text{非线性度}= \frac{B}{A}\times100\%\)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;A：满量程；B：标定曲线与拟合直线间&lt;/span&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;最大偏差&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;两种拟合参考直线：&amp;nbsp;&lt;/p&gt;&lt;p&gt;1）端基直线：直接连接标定曲线起点、终点；&amp;nbsp;&lt;/p&gt;&lt;p&gt;2）独立（最小二乘）：误差平方最小的最优拟合线。&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="170" width="290" x="32" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-8" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h3&gt;③漂移 Drift&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;零漂：输入等于 0 的时候发生的漂移&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;点漂：任意恒定输入下输出随时间漂移&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;灵敏度漂移：曲线斜率发生变化（温度、元器件老化）&lt;/span&gt;&lt;/h3&gt;" vertex="1">
-          <mxGeometry height="152" width="300" x="290" y="777" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-9" parent="oaAtDDPTm3okgFsRBYkK-15" style="whiteSpace=wrap;html=1;fillColor=#DDECFF;strokeColor=#6c8ebf;shadow=1;" value="" vertex="1">
+          <mxGeometry height="130" width="310" x="22" y="359" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-12" parent="1" style="whiteSpace=wrap;html=1;fillColor=#DDECFF;strokeColor=#6c8ebf;shadow=1;" value="" vertex="1">
-          <mxGeometry height="137.64" width="310" x="280" y="923.36" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-8" parent="oaAtDDPTm3okgFsRBYkK-15" style="text;whiteSpace=wrap;html=1;" value="&lt;h3&gt;③漂移 Drift&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;零漂：输入等于 0 的时候发生的漂移&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;点漂：任意恒定输入下输出随时间漂移&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;灵敏度漂移：曲线斜率发生变化（温度、元器件老化）&lt;/span&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="152" width="300" x="32" y="352" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-10" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h3&gt;④回程误差（迟滞）&lt;/h3&gt;&lt;p&gt;输入从小到大上升；再从大到小下降，&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;同一个输入 X，得到两个不一样输出 Y&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;。&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;（齿轮间隙、材料弹性滞后、磁滞)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;\(回程误差=\frac{h_{max}}{A}\)&lt;br&gt;\(h_{max}\)：同一输入，上升下降输出极差；A 满量程。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="208.71" width="290" x="290" y="908" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-12" parent="oaAtDDPTm3okgFsRBYkK-15" style="whiteSpace=wrap;html=1;fillColor=#DDECFF;strokeColor=#6c8ebf;shadow=1;" value="" vertex="1">
+          <mxGeometry height="137.64" width="310" x="22" y="498.36" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-14" parent="1" style="whiteSpace=wrap;html=1;fillColor=#DDECFF;strokeColor=#6c8ebf;rounded=1;roundedPerimeter=1;glass=0;multiple=0;shadow=1;" value="" vertex="1">
-          <mxGeometry height="93" width="310" x="278" y="1067" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-10" parent="oaAtDDPTm3okgFsRBYkK-15" style="text;whiteSpace=wrap;html=1;" value="&lt;h3&gt;④回程误差（迟滞）&lt;/h3&gt;&lt;p&gt;输入从小到大上升；再从大到小下降，&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;同一个输入 X，得到两个不一样输出 Y&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;。&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;（齿轮间隙、材料弹性滞后、磁滞)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;\(回程误差=\frac{h_{max}}{A}\)&lt;br&gt;\(h_{max}\)：同一输入，上升下降输出极差；A 满量程。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="208.71" width="290" x="32" y="483" as="geometry" />
         </mxCell>
-        <mxCell id="oaAtDDPTm3okgFsRBYkK-13" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h3&gt;⑤精度、引用误差（精度等级）&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;引用误差&lt;/strong&gt;：最大绝对误差 ÷ 满量程 FS&lt;/p&gt;&lt;p&gt;精度等级就是最大允许引用误差。&lt;/p&gt;" vertex="1">
-          <mxGeometry height="108" width="232.55" x="291" y="1058" as="geometry" />
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-14" parent="oaAtDDPTm3okgFsRBYkK-15" style="whiteSpace=wrap;html=1;fillColor=#DDECFF;strokeColor=#6c8ebf;rounded=1;roundedPerimeter=1;glass=0;multiple=0;shadow=1;" value="" vertex="1">
+          <mxGeometry height="93" width="310" x="20" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-13" parent="oaAtDDPTm3okgFsRBYkK-15" style="text;whiteSpace=wrap;html=1;" value="&lt;h3&gt;⑤精度、引用误差（精度等级）&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;引用误差&lt;/strong&gt;：最大绝对误差 ÷ 满量程 FS&lt;/p&gt;&lt;p&gt;精度等级就是最大允许引用误差。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="108" width="232.55" x="33" y="633" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-16" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;动态特性&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="36" width="76" x="787.0010344827587" y="348.003103448276" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-19" parent="1" style="text;whiteSpace=wrap;html=1;" value="静态误差是【稳态值和真值的偏差】；动态误差是【波形本身形状改变】" vertex="1">
+          <mxGeometry height="36" width="406" x="646.9969942196533" y="383.99971098265894" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-20" parent="1" style="whiteSpace=wrap;html=1;fillColor=light-dark(#D8EDD7,#496746);strokeColor=#82b366;glass=1;" value="" vertex="1">
+          <mxGeometry height="232" width="357" x="652" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-21" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;动态模型：微分方程&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="36" width="136" x="659.9988888888889" y="420.0011111111111" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-22" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p&gt;线性定常系统输入输出关系可以写成线性常系数微分方程：&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="340" x="660.0016666666668" y="440.00444444444446" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-23" parent="1" style="text;whiteSpace=wrap;html=1;" value="\(a_n \frac{d^n y}{dt^n}+\dots+a_1\frac{dy}{dt}+a_0 y = b_m \frac{d^m x}{dt^m}+\dots+b_1\frac{dx}{dt}+b_0 x\)&lt;ul style=&quot;list-style-type: disc;&quot;&gt;&lt;br&gt;&lt;li&gt;\(x(t)\)：输入信号（真实的被测物理量，时间的函数）&lt;/li&gt;&lt;br&gt;&lt;li&gt;\(y(t)\)：输出信号（传感器采集得到的信号，时间的函数）&lt;/li&gt;&lt;br&gt;&lt;li&gt;\(a_0,a_1...a_n,\;b_0,b_1...b_m\)：常数，由传感器本身决定。&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;p&gt;方程的阶数 = 系统里面独立储能元件的数量。&lt;/p&gt;" vertex="1">
+          <mxGeometry height="202.734375" width="424.2734375" x="660.0033333333336" y="477.0011111111111" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-26" parent="1" style="whiteSpace=wrap;html=1;fillColor=light-dark(#D8EDD7,#496746);strokeColor=#82b366;glass=1;" value="" vertex="1">
+          <mxGeometry height="191" width="357" x="652" y="662" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-25" parent="1" style="text;whiteSpace=wrap;" value="0 阶系统：\(a_0 y = b_0 x\)，也就是 \(y=Kx\)，理想模型。&#xa;&#xa;一阶系统：只含 1 个储能元件。如RC 电路、热电偶测温系统。\(\tau \frac{dy}{dt}+y = K x\)&#xa;K：静态灵敏度；&#xa;\(\tau\)：时间常数，动态参数。\(\tau\)越大，响应越慢。&#xa;&#xa;二阶系统：包含 2 个独立储能元件。如质量 - 弹簧 - 阻尼加速度传感器、压电传感器。&#xa;\(\frac{d^2 y}{dt^2}+2\zeta\omega_n \frac{dy}{dt}+\omega_n^2 y = K\omega_n^2 x\)&#xa;\(\zeta\)：阻尼比；\(\omega_n\)：固有角频率" vertex="1">
+          <mxGeometry height="131.51" width="340" x="660" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-28" parent="1" style="whiteSpace=wrap;html=1;fillColor=light-dark(#D8EDD7,#496746);strokeColor=#82b366;glass=1;" value="" vertex="1">
+          <mxGeometry height="235" width="357" x="651.5" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-27" parent="1" style="text;whiteSpace=wrap;html=1;" value="傅里叶变换限制：很多信号不满足绝对可积条件，如阶跃信号" vertex="1">
+          <mxGeometry height="36" width="326" x="662" y="903" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-29" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;拉布拉斯变换：&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="36" width="112" x="656.0033333333336" y="873" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-30" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p&gt;而傅里叶变换是&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;把一个时域信号 \(x(t)\)，变换到&lt;/span&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;频域&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;于是引入一个复变量 \(s=\sigma+j\omega\)，而拉布拉斯就是变换到s域&lt;/span&gt;&lt;/p&gt;\(X(s)=\mathcal{L}[x(t)]=\int_{0}^{+\infty} x(t) e^{-st} dt=\int_{0}^{+\infty} x(t) e^{-\sigma t} e^{-j\omega t} dt\)" vertex="1">
+          <mxGeometry height="95.8125" width="367.6328125" x="661.9966666666669" y="920.0033333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-31" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;ul style=&quot;list-style-type: disc;&quot;&gt;&lt;li&gt;对比来看，拉普拉斯的核函数 \(e^{-st}=e^{-\sigma t}e^{-j\omega t}\)，多了一个衰减项 \(e^{-\sigma t}\)，其中\(\sigma\) 是衰减系数”，让原本不收敛的信号，积分可以收敛。&lt;/li&gt;&lt;li&gt;当我们取 \(\boldsymbol{\sigma=0}\)，也就是 \(s=j\omega\) 的时候，拉普拉斯变换就&lt;strong&gt;退化成傅里叶变换&lt;/strong&gt;。&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="116" width="367.63" x="633.68" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;dashPattern=8 4 1 4;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="327" width="465" x="1053" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-35" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;传递函数&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="1240.5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-36" parent="1" style="text;whiteSpace=wrap;html=1;" value="传递函数 = 输出信号的拉普拉斯变换 ÷ 输入信号的拉普拉斯变换" vertex="1">
+          <mxGeometry height="36" width="367" x="1064" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-37" parent="1" style="text;whiteSpace=wrap;html=1;" value="\(\boldsymbol{G(s)=\frac{Y(s)}{X(s)}}\)，&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;\(Y(s)=\mathcal{L}[y(t)],\quad X(s)=\mathcal{L}[x(t)]\)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="360" x="1067.5" y="229.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-39" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p&gt;一阶微分方程： \(\tau \frac{dy}{dt}+y = K x\)，传递函数： \(G(s)=\frac{Y(s)}{X(s)}=\frac{K}{\tau s +1}\)&lt;/p&gt;&lt;p&gt;二阶系统： \(\frac{d^2 y}{dt^2}+2\zeta\omega_n \frac{dy}{dt}+\omega_n^2 y = K\omega_n^2 x\) &lt;/p&gt;&lt;p&gt;拉普拉斯变换：&lt;/p&gt;&lt;p&gt;&amp;nbsp;\(s^2 Y(s)+2\zeta\omega_n s Y(s)+\omega_n^2 Y(s)=K\omega_n^2 X(s)\) \(G(s)=\frac{Y(s)}{X(s)}=\frac{K\omega_n^2}{s^2+2\zeta\omega_n s+\omega_n^2}\)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="136.453125" width="550" x="1070" y="252.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-40" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;b&gt;重要性质：&lt;/b&gt;&lt;/p&gt;&lt;p&gt;1. G (s) 只和系统本身结构、参数（τ、ζ、ωₙ、K）有关，和输入信号无关&lt;/p&gt;&lt;p&gt;2. 属于黑箱，是 s 域的代数表达式&lt;/p&gt;" vertex="1">
+          <mxGeometry height="113" width="414" x="1070" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;dashPattern=8 4 1 4;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="327" width="465" x="1053" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-43" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;频率响应&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="1232" y="507" as="geometry" />
+        </mxCell>
+        <mxCell id="oaAtDDPTm3okgFsRBYkK-45" parent="1" style="text;whiteSpace=wrap;spacing=2;" value="稳态输出一定是和输入同频率的正弦信号，仅仅振幅、相位发生改变。&#xa;\(G(j\omega) = \frac{Y(j\omega)}{X(j\omega)} = A(\omega) \cdot e^{j\varphi(\omega)}\)    拆成两个独立函数：&#xa;幅频特性 \(A(\omega)\)：幅值比 = 输出振幅 / 输入振幅&#xa;\(A(\omega)=1\)：该频率下幅值不变，无幅度失真\(A(\omega)&gt;1\)放大；\(A(\omega)&lt;1\)衰减&#xa;相频特性 \(\varphi(\omega)\)：输出正弦相对输入正弦的相位差，为负代表输出滞后于输入" vertex="1">
+          <mxGeometry height="113" width="429" x="1075" y="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
