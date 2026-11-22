@@ -180,6 +180,14 @@
         <mxCell id="oaAtDDPTm3okgFsRBYkK-49" parent="1" style="whiteSpace=wrap;html=1;fillColor=#FFD3D1;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;multiple=0;" value="" vertex="1">
           <mxGeometry height="238" width="424.27" x="1073.36" y="825" as="geometry" />
         </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-25" edge="1" parent="1" source="oaAtDDPTm3okgFsRBYkK-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" target="oaAtDDPTm3okgFsRBYkK-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1525.7" y="955.5" />
+              <mxPoint x="1525.7" y="1624" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oaAtDDPTm3okgFsRBYkK-50" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h3&gt;（1）阶跃响应&lt;/h3&gt;&lt;p&gt;阶跃输入：\(t&amp;gt;0\)瞬间从 0 跳变到恒定值，比如突然按压一下&lt;br&gt;阶跃信号的拉普拉斯变换：\(X(s)=\frac{1}{s}\)&lt;br&gt;所以输出：&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;\(Y(s)=G(s)\cdot \frac{1}{s}\)&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;再做逆变换，得到阶跃响应曲线 \(y(t)\)。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;一阶系统阶跃响应：&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;\(y(t)=K\left(1-e^{-t/\tau}\right)\)&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;平滑指数上升，没有震荡。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;\(\tau\)：时间常数，输出到达稳态值 63.2% 的时间。τ 越小上升越快。&lt;/p&gt;&lt;p&gt;二阶系统阶跃响应，形态由阻尼比 ζ 决定：&lt;/p&gt;&lt;ul style=&quot;list-style-type: disc;&quot;&gt;&lt;li&gt;\(\zeta\ge1\)（过阻尼、临界阻尼）：单调上升，不会冲过稳态值，无震荡&lt;/li&gt;&lt;br&gt;&lt;li&gt;\(0&amp;lt;\zeta&amp;lt;1\)（欠阻尼）：上升超过稳态值，来回震荡、慢慢衰减&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="273" width="414" x="1082" y="819" as="geometry" />
         </mxCell>
