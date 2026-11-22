@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="2mJU2IG9U6x51s-JhC24">
-    <mxGraphModel dx="1677" dy="907" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="4132" dy="2236" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -249,6 +249,57 @@
         </mxCell>
         <mxCell id="oaAtDDPTm3okgFsRBYkK-89" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;二阶测量系统·特性&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="36" width="156" x="1085" y="1505" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 4 1 4;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="310" width="1258" x="260" y="1777" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=light-dark(#D8EDD7,#496746);strokeColor=#82b366;glass=1;" value="" vertex="1">
+          <mxGeometry height="275" width="371.5" x="282" y="1794" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-3" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;失真&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="36" width="64" x="434" y="1797" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-4" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;h3&gt;理想不失真的时域：&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 12px; font-weight: normal;&quot;&gt;\(\boldsymbol{y(t)=A_0 \cdot x(t-t_0)}\)&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;\(A_0\)：恒定放大倍数；\(t_0\)：固定时间延迟。&lt;/p&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="93" width="265" x="291" y="1803" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-5" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h4&gt;①幅值失真&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;\(A(\omega)\)不是常数，不同频率放大 / 衰减倍数不一样。&lt;/span&gt;&lt;/h4&gt;" vertex="1">
+          <mxGeometry height="100.92" width="343" x="286" y="1871" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-6" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h4&gt;②相位失真&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-weight: normal;&quot;&gt;：\(\varphi(\omega)\)和\(\omega\)不成正比。&lt;/span&gt;&lt;/h4&gt;" vertex="1">
+          <mxGeometry height="59" width="227.33" x="286" y="1891.96" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-7" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;strong&gt;一阶系统&lt;/strong&gt;减小失真：&lt;strong&gt;减小时间常数\(\tau\)&lt;/strong&gt;，提高截止频率，拓宽可用带宽。" vertex="1">
+          <mxGeometry height="57" width="383.2734375" x="285.99555555555565" y="1930.9955555555557" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-8" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;ol start=&quot;2&quot; style=&quot;list-style-type: decimal;&quot;&gt;&lt;li&gt;&lt;strong&gt;二阶系统减小失真&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ul style=&quot;list-style-type: disc;&quot;&gt;&lt;li&gt;\(\boldsymbol{0 \sim 0.6\omega_n}\)区间内，幅值误差≤5%，相位近似线性，失真小；&lt;/li&gt;&lt;br&gt;&lt;li&gt;不能靠近\(\omega_n\)共振区，共振峰处幅值会被放大，严重失真；&lt;/li&gt;&lt;br&gt;&lt;li&gt;工程优选阻尼比 \(\boldsymbol{\zeta≈0.7}\)，兼顾幅频平坦、相频线性。&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="130" width="378" x="261" y="1943" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-9" parent="1" style="whiteSpace=wrap;html=1;fillColor=light-dark(#D8EDD7,#496746);strokeColor=#82b366;glass=1;" value="" vertex="1">
+          <mxGeometry height="275" width="371.5" x="665" y="1794" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-10" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;负载效应&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="36" width="88.38" x="818.75" y="1794" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-11" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;strong&gt;测量装置作为负载，从被测对象吸取能量，改变了被测对象原本真实的物理量，造成测量误差&lt;/strong&gt;。" vertex="1">
+          <mxGeometry height="36" width="347.92" x="676.79" y="1833" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-12" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;h3 style=&quot;line-height: 100%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 改善措施&lt;/h3&gt;&lt;ol style=&quot;list-style-type: decimal;&quot;&gt;&lt;li&gt;&lt;strong&gt;提高后续环节（负载）的输入阻抗&lt;/strong&gt;&lt;br&gt;电路：电压表输入内阻尽量大；&lt;br&gt;机械：传感器质量尽量轻、刚度尽量匹配被测件。&lt;/li&gt;&lt;/ol&gt;&lt;ol start=&quot;2&quot; style=&quot;list-style-type: decimal;&quot;&gt;&lt;li&gt;&lt;strong&gt;中间插入隔离放大器（高输入阻抗、低输出阻抗）&lt;/strong&gt;&lt;br&gt;把被测对象和后级采集电路隔离开；前级几乎不取电流，后级由放大器提供驱动能量。&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;strong&gt;采用反馈式测量原理&lt;/strong&gt;&lt;br&gt;比如反馈式力传感器、电荷放大器；几乎不从被测端吸取能量，极大削弱负载效应。&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="201" width="383.27" x="647" y="1869" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-13" parent="1" style="whiteSpace=wrap;html=1;fillColor=light-dark(#D8EDD7,#496746);strokeColor=#82b366;glass=1;" value="" vertex="1">
+          <mxGeometry height="275" width="436.5" x="1052" y="1794" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-14" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;抗干扰&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="36" width="88.38" x="1226.06" y="1797" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-15" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;三大干扰&lt;/b&gt;&lt;/div&gt;&lt;ol style=&quot;list-style-type: decimal;&quot;&gt;&lt;li&gt;&lt;strong&gt;电磁干扰：&lt;/strong&gt;空间电磁场、电机开关、电源线辐射，通过线缆耦合进信号线；&lt;/li&gt;&lt;li&gt;&lt;strong&gt;电源干扰&lt;/strong&gt;：供电电压波动、电源纹波；&lt;/li&gt;&lt;li&gt;&lt;strong&gt;信道干扰&lt;/strong&gt;：器件本身热噪声、PCB 布线带来串扰；&lt;br&gt;另外还有机械振动、光照、温度漂移等其他干扰源。&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="104" width="444.64" x="1043.86" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-17" parent="1" style="text;whiteSpace=wrap;fontStyle=0" value="屏蔽：信号线用屏蔽线缆，屏蔽层抑制空间电磁场耦合。&#xa;正确接地：避免地环路，地环路会引入很大工频 50Hz 干扰。&#xa;隔离电源：隔离变压器、交流稳压器，抑制电源侧干扰。&#xa;差分输入&#xa;单端输入：信号相对于大地，干扰会直接叠加到信号上；&#xa;差分输入：采集两根信号线的差值；两根线同时耦合进来的外界干扰（共模干扰）会相互抵消。&#xa;器件选型：选用低噪声元器件；合理 PCB 布线，强弱信号走线分开。" vertex="1">
+          <mxGeometry height="94" width="404" x="1070" y="1933" as="geometry" />
+        </mxCell>
+        <mxCell id="FesX7l5YxRKnhAVgpUW6-18" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;抗干扰手段&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="36" width="88" x="1059" y="1907" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
